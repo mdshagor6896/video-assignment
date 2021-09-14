@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    max-width: 100%;
+}
+
+/* header */
+.header{
+ background: #141719;
+ padding: 10px 0;
+}
+.header-width {
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+   
+    justify-content: space-between;
+}
+
+
+.header .header-logo{}
+.header .header-logo img{
+    width: 100px;
+}
+
+.header-menu{}
+.header-menu ul{
+    display: flex;
+    list-style: none;
+}
+.header-menu ul li{
+    margin-left: 20px;
+}
+.header-menu ul li a {
+    text-decoration: none;
+    color: #ddd;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 21px;
+    border-bottom: 2px solid rgb(83, 255, 255);
+    margin-top: 5px;
+}
+
+/* banner */
+.banner-section{
+    background-image: url(https://cdn.wallpapersafari.com/0/75/JYV8RF.jpg);
+    background-position: top center;
+    background-size: cover;
+    padding: 200px 0;
+   
+   
+}
+
+.banner-section h1 {
+    color: #1b271f;
+    font-size: 40px;
+    font-weight: 700;
+}
+.banner-section p{
+    color: #000;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* team-section */
+
+.about-section {
+    background: #343535;
+    padding: 5opx 0;
+}
+.about-section h1{
+    font-weight: 700;
+    color: #e8dfda;
+    text-shadow: 2px 2px 2px #e8dfda;
+    font-size: 50px;
+    border-bottom: 3px solid #e8dfda;
+    display: inline-block;
+    margin: 0 413px;
+}
+.about-section .img{
+    width: 40%;
+    
+    float: right;
+   
+}
+.about-section .img img {
+    width: 55%;
+    margin-top: 75px;
+}
+.about{
+    display: flex;
+}
+
+.about-section p {
+    color: white;
+    margin-top: 40px;
+    width: 59%;
+    float: left;
+    padding: 30px;
+}
+
+
+
+img{
+    max-width: 100%;
+}
+
+
+
+
+.cards{
+    text-align: center;
+    display: flex;
+}
+.cards .item{
+    width: 30%;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    margin-left: 70px;
+}
+.cards .item img {
+    width: 79%;
+    margin-top: 8px;
+}
+.cards .item .text{
+    
+    width: 70%;
+    text-align: justify;
+}
+.cards .item .text h3 {
+    color: #282525;
+    font-weight: 600;
+}
+.cards .item .text p{
+    max-width: 100%;
+    color: rgb(78, 77, 77);
+    font-size: 15px;
+}
